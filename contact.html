@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Arkayuga</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="navbar-inner">
+            <a href="index.html" class="logo">
+                <img src="assets/images/ARKAYUGA DIGITAL AGENCY - white.png" alt="Arkayuga Logo" class="logo-img">
+            </a>
+            <ul class="nav-links">
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="index.html#about">About Us</a></li>
+                <li class="nav-item"><a href="services.html">Services</a></li>
+                <li class="nav-item"><a href="why.html">Why Choose Us</a></li>
+                <li class="nav-item"><a href="process.html">Our Process</a></li>
+                <li class="nav-item"><a href="testimonials.html">Testimonials</a></li>
+            </ul>
+            <a href="contact.html" class="nav-cta">
+                <i class="fas fa-rocket" style="margin-right: 0.4rem;"></i> Get Started
+            </a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn"><i class="fas fa-bars"></i></button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="mobile-menu-close" id="mobileMenuClose"><i class="fas fa-times"></i></button>
+        <a href="index.html" class="mobile-logo">
+            <img src="assets/images/ARKAYUGA DIGITAL AGENCY - white.png" alt="Arkayuga Logo" class="mobile-logo-img">
+        </a>
+        <ul class="mobile-menu-links">
+            <li><a href="index.html" class="mobile-link">Home</a></li>
+            <li><a href="services.html" class="mobile-link">Services</a></li>
+            <li><a href="why.html" class="mobile-link">Why Choose Us</a></li>
+            <li><a href="process.html" class="mobile-link">Our Process</a></li>
+            <li><a href="testimonials.html" class="mobile-link">Testimonials</a></li>
+            <li><a href="contact.html" class="mobile-link">Get Started</a></li>
+        </ul>
+    </div>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <span class="page-hero-ghost">ARKAYUGA</span>
+        <div class="page-hero-content">
+            <span class="page-hero-badge"><i class="fas fa-envelope"></i> Get In Touch</span>
+            <h1 class="page-hero-title">Contact Us</h1>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+        <div class="contact-grid">
+            <div class="contact-left animate-left">
+                <h2>
+                    <span class="line-1">Let's talk about your</span>
+                    <span class="line-2">next <em>project ready?</em></span>
+                </h2>
+                <p class="contact-desc">We're here to help you grow. Get in touch with our start building a winning digital strategy today.</p>
+                <div class="contact-checks">
+                    <span><i class="fas fa-check"></i> Fast response</span>
+                    <span><i class="fas fa-check"></i> Expert support</span>
+                    <span><i class="fas fa-check"></i> Clear Guidance</span>
+                </div>
+                <div class="contact-image">
+                    <img src="assets/images/CONTACT US.jpg" alt="Team Meeting">
+                </div>
+            </div>
+            <div class="contact-form-wrapper animate-right">
+                <form id="contactForm" class="contact-form-vortex">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstName">First Name <span class="required">*</span></label>
+                            <input type="text" id="firstName" name="firstName" placeholder="e.g. Brandon" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name <span class="required">*</span></label>
+                            <input type="text" id="lastName" name="lastName" placeholder="e.g. Gulston" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email <span class="required">*</span></label>
+                            <input type="email" id="email" name="email" placeholder="e.g. hello@brandongultson.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone <span class="required">*</span></label>
+                            <input type="tel" id="phone" name="phone" placeholder="e.g. (+62) 8123 4567 8900" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="company">Company</label>
+                            <input type="text" id="company" name="company" placeholder="e.g. Heyden Studio">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="e.g. Digital Marketing">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Write your message here..."></textarea>
+                    </div>
+                    <button type="submit" class="send-btn">
+                        Send Message
+                        <span class="arrow-box"><i class="fas fa-arrow-right"></i></span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-main">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <img src="assets/images/ARKAYUGA DIGITAL AGENCY - white.png" alt="Arkayuga Logo" class="footer-logo-img">
+                    </a>
+                    <p>We are a passionate team of digital strategists, designers, and marketers helping brands grow online.</p>
+                    <div class="follow-text">FOLLOW US AND STAY UPDATED!</div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-x-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>QUICK LINKS</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="why.html">Why Choose Us</a></li>
+                        <li><a href="process.html">Our Process</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>OUR SERVICES</h4>
+                    <ul>
+                        <li><a href="services.html">Eternal Brand Forge</a></li>
+                        <li><a href="services.html">Social Empire Management</a></li>
+                        <li><a href="services.html">Conversion Command Centers</a></li>
+                        <li><a href="services.html">Visual Impact Arsenal</a></li>
+                        <li><a href="services.html">Cinematic Brand Stories</a></li>
+                        <li><a href="services.html">Search Engine Domination</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>CONTACT INFO</h4>
+                    <ul class="contact-info-list">
+                        <li><i class="fas fa-map-marker-alt" style="color: var(--primary); margin-right: 0.5rem;"></i> Site No. 54, Door No. 29, Ashok Layout, Civil Aerodrome Post, Sitra, Coimbatore – 641014</li>
+                        <li><i class="fas fa-envelope" style="color: var(--primary); margin-right: 0.5rem;"></i> info@arkayuga.com</li>
+                        <li><i class="fas fa-phone" style="color: var(--primary); margin-right: 0.5rem;"></i> +91 99629 99817</li>
+                        <li><i class="fas fa-phone" style="color: var(--primary); margin-right: 0.5rem;"></i> +91 99629 99818</li>
+                        <li><i class="fas fa-phone" style="color: var(--primary); margin-right: 0.5rem;"></i> +91 99629 99819</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>2026 Arkayuga. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Sitemap</a>
+                <a href="#">Cookies</a>
+            </div>
+            <a href="#" class="back-to-top-btn" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;" title="Back to Top">
+                <i class="fas fa-arrow-up"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal">
+            <button class="modal-close" id="modalClose"><i class="fas fa-times"></i></button>
+            <h3 id="modalTitle">Service Inquiry</h3>
+            <p>Thank you for your interest! Our team will reach out to you shortly to discuss your requirements.</p>
+            <a href="contact.html" class="btn-primary" onclick="closeModal()" style="width:100%;justify-content:center;">
+                <i class="fas fa-paper-plane"></i> Contact Us Now
+            </a>
+        </div>
+    </div>
+
+    <!-- Toast -->
+    <div class="toast" id="toast">
+        <i class="fas fa-check-circle"></i>
+        <span id="toastMessage">Message sent successfully!</span>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

@@ -62,20 +62,25 @@ function initMobileMenu() {
 }
 
 // ============================================
-// IFRAME VIDEO HANDLING
+// VIDEO BACKGROUND HANDLING
 // ============================================
 
 function initVideoFallback() {
-    const iframe = document.querySelector('.hero-video-container iframe');
-    if (iframe) {
-        // Ensure iframe loads properly
-        iframe.addEventListener('load', function() {
+    const video = document.querySelector('.hero-video-container video');
+    if (video) {
+        // Ensure video plays properly
+        video.addEventListener('loadeddata', function() {
             console.log('Hero background video loaded');
         });
 
-        // Handle iframe errors by showing overlay only
-        iframe.addEventListener('error', function() {
-            console.log('Video iframe failed to load');
+        // Handle video errors
+        video.addEventListener('error', function() {
+            console.log('Video failed to load');
+        });
+
+        // Ensure autoplay works
+        video.play().catch(function(error) {
+            console.log('Autoplay prevented:', error);
         });
     }
 }

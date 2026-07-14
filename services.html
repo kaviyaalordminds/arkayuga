@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | Arkayuga</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="navbar-inner">
+            <a href="index.html" class="logo">
+                <img src="assets/images/ARKAYUGA DIGITAL AGENCY - white.png" alt="Arkayuga Logo" class="logo-img">
+            </a>
+            <ul class="nav-links">
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="index.html#about">About Us</a></li>
+                <li class="nav-item"><a href="services.html">Services</a></li>
+                <li class="nav-item"><a href="why.html">Why Choose Us</a></li>
+                <li class="nav-item"><a href="process.html">Our Process</a></li>
+                <li class="nav-item"><a href="testimonials.html">Testimonials</a></li>
+            </ul>
+            <a href="contact.html" class="nav-cta">
+                <i class="fas fa-rocket" style="margin-right: 0.4rem;"></i> Get Started
+            </a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn"><i class="fas fa-bars"></i></button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="mobile-menu-close" id="mobileMenuClose"><i class="fas fa-times"></i></button>
+        <a href="index.html" class="mobile-logo">
+            <img src="assets/images/ARKAYUGA DIGITAL AGENCY - white.png" alt="Arkayuga Logo" class="mobile-logo-img">
+        </a>
+        <ul class="mobile-menu-links">
+            <li><a href="index.html" class="mobile-link">Home</a></li>
+            <li><a href="index.html#about" class="mobile-link">About Us</a></li>
+            <li><a href="services.html" class="mobile-link">Services</a></li>
+            <li><a href="why.html" class="mobile-link">Why Choose Us</a></li>
+            <li><a href="process.html" class="mobile-link">Our Process</a></li>
+            <li><a href="testimonials.html" class="mobile-link">Testimonials</a></li>
+            <li><a href="contact.html" class="mobile-link">Get Started</a></li>
+        </ul>
+    </div>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <span class="page-hero-ghost">ARKAYUGA</span>
+        <div class="page-hero-content">
+            <span class="page-hero-badge"><i class="fas fa-layer-group"></i> Our Services</span>
+            <h1 class="page-hero-title">Services</h1>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section" id="services">
+        <div class="section-header animate">
+            <h2 class="section-title">Smart Digital Solutions for <span class="accent">Business Growth</span></h2>
+            <p class="section-desc">We offer a comprehensive suite of digital marketing services designed to help your business thrive in the digital landscape.</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card animate delay-1">
+                <div class="service-number">01</div>
+                <div class="service-icon"><i class="fas fa-gem"></i></div>
+                <h3>Eternal Brand Forge</h3>
+                <p>Build a Brand That People Remember and Trust. Your brand is more than just a logo - it is the emotional connection and promise your business makes to the world.</p>
+                <ul class="service-deliverables">
+                    <li><i class="fas fa-check"></i> Unique Brand Identity Development</li>
+                    <li><i class="fas fa-check"></i> Professional Logo & Visual System</li>
+                    <li><i class="fas fa-check"></i> Comprehensive Brand Guidelines</li>
+                    <li><i class="fas fa-check"></i> Brand Communication Strategy</li>
+                    <li><i class="fas fa-check"></i> Market Positioning & Storytelling</li>
+                </ul>
+                <a href="contact.html" class="service-cta" onclick="openModal('Eternal Brand Forge')">Book Your Branding Session <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="service-card animate delay-2">
+                <div class="service-number">02</div>
+                <div class="service-icon"><i class="fas fa-hashtag"></i></div>
+                <h3>Social Empire Management</h3>
+                <p>Complete Social Media Page Management That Builds Authority. We take full ownership of your business pages, creating engaging content and maintaining a strong presence.</p>
+                <ul class="service-deliverables">
+                    <li><i class="fas fa-check"></i> Daily Strategic Content Posting</li>
+                    <li><i class="fas fa-check"></i> Creative & Scroll-Stopping Captions</li>
+                    <li><i class="fas fa-check"></i> Active Audience Engagement</li>
+                    <li><i class="fas fa-check"></i> Performance Monitoring & Optimization</li>
+                    <li><i class="fas fa-check"></i> Detailed Monthly Reports</li>
+                </ul>
+                <a href="contact.html" class="service-cta" onclick="openModal('Social Empire Management')">Get Started Today <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="service-card animate delay-3">
+                <div class="service-number">03</div>
+                <div class="service-icon"><i class="fas fa-bullseye"></i></div>
+                <h3>Conversion Command Centers</h3>
+                <p>Modern Websites That Convert Visitors Into Customers. Your website is your most important digital asset - your 24/7 salesperson.</p>
+                <ul class="service-deliverables">
+                    <li><i class="fas fa-check"></i> Professional Business Websites</li>
+                    <li><i class="fas fa-check"></i> High-Converting E-commerce Stores</li>
+                    <li><i class="fas fa-check"></i> Targeted Landing Pages</li>
+                    <li><i class="fas fa-check"></i> Custom Web Development</li>
+                    <li><i class="fas fa-check"></i> Ongoing Maintenance & Support</li>
+                </ul>
+                <a href="contact.html" class="service-cta" onclick="openModal('Conversion Command Centers')">Request a Consultation <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="service-card animate delay-1">
+                <div class="service-number">04</div>
+                <div class="service-icon"><i class="fas fa-swatchbook"></i></div>
+                <h3>Visual Impact Arsenal</h3>
+                <p>Creative Designs That Capture Attention and Drive Action. Great design creates powerful first impressions and communicates your brand message instantly.</p>
+                <ul class="service-deliverables">
+                    <li><i class="fas fa-check"></i> High-Impact Social Media Creatives</li>
+                    <li><i class="fas fa-check"></i> Posters, Flyers & Brochures</li>
+                    <li><i class="fas fa-check"></i> Business Cards & Stationery</li>
+                    <li><i class="fas fa-check"></i> Full Brand Identity Packages</li>
+                    <li><i class="fas fa-check"></i> Complete Marketing Collaterals</li>
+                </ul>
+                <a href="contact.html" class="service-cta" onclick="openModal('Visual Impact Arsenal')">Discuss Your Design Needs <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="service-card animate delay-2">
+                <div class="service-number">05</div>
+                <div class="service-icon"><i class="fas fa-clapperboard"></i></div>
+                <h3>Cinematic Brand Stories</h3>
+                <p>Professional Video Production That Engages and Converts. From concept to final edit, we produce high-quality videos that captivate viewers and drive action.</p>
+                <ul class="service-deliverables">
+                    <li><i class="fas fa-check"></i> Corporate & Brand Story Videos</li>
+                    <li><i class="fas fa-check"></i> Promotional & Explainer Videos</li>
+                    <li><i class="fas fa-check"></i> Professional Product Shoots</li>
+                    <li><i class="fas fa-check"></i> Event Coverage</li>
+                    <li><i class="fas fa-check"></i> Social Media Reels & Editing</li>
+                </ul>
+                <a href="contact.html" class="service-cta" onclick="openModal('Cinematic Brand Stories')">Start Your Video Project <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="service-card animate delay-3">
+                <div class="service-number">06</div>
+                <div class="service-icon"><i class="fas fa-chart-line"></i></div>
+                <h3>Search Engine Domination</h3>
+                <p>Rank Higher. Get Found. Grow Organically. We help your business appear at the top of Google search results when potential customers are actively looking.</p>
+                <ul class="service-deliverables">
+                    <li><i class="fas fa-check"></i> Comprehensive Website SEO Audit</li>
+                    <li><i class="fas fa-check"></i> In-Depth Keyword Research</li>
+                    <li><i class="fas fa-check"></i> On-Page & Technical SEO</li>
+                    <li><i class="fas fa-check"></i> Local SEO for Coimbatore</li>
+                    <li><i class="fas fa-check"></i> Monthly Performance Reports</li>
+                </ul>
+                <a href="contact.html" class="service-cta" onclick="openModal('Search Engine Domination')">Get Your Free SEO Audit <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="service-card animate delay-1">
+                <div class="service-number">07</div>
+                <div class="service-icon"><i class="fab fa-meta"></i></div>
+                <h3>Meta Precision Strike</h3>
+                <p>Reach the Right Audience with Precision Meta Advertising. We create highly targeted Facebook and Instagram ad campaigns that deliver strong ROI.</p>
+                <ul class="service-deliverables">
+                    <li><i class="fas fa-check"></i> Data-Driven Campaign Strategy</li>
+                    <li><i class="fas fa-check"></i> Precise Audience Targeting</li>
+                    <li><i class="fas fa-check"></i> High-Converting Ad Design</li>
+                    <li><i class="fas fa-check"></i> Smart Budget Optimization</li>
+                    <li><i class="fas fa-check"></i> Advanced Conversion Tracking</li>
+                </ul>
+                <a href="contact.html" class="service-cta" onclick="openModal('Meta Precision Strike')">Book Your Ad Strategy Call <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="service-card animate delay-2">
+                <div class="service-number">08</div>
+                <div class="service-icon"><i class="fab fa-google"></i></div>
+                <h3>Google Growth Engine</h3>
+                <p>Drive Instant, High-Intent Traffic with Google Ads. Get your business in front of customers exactly when they are searching for what you offer.</p>
+                <ul class="service-deliverables">
+                    <li><i class="fas fa-check"></i> Search & Display Advertising</li>
+                    <li><i class="fas fa-check"></i> Google Shopping Campaigns</li>
+                    <li><i class="fas fa-check"></i> YouTube Video Ads</li>
+                    <li><i class="fas fa-check"></i> Remarketing & Retargeting</li>
+                    <li><i class="fas fa-check"></i> Bid & Performance Management</li>
+                </ul>
+                <a href="contact.html" class="service-cta" onclick="openModal('Google Growth Engine')">Start Google Ads Now <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="service-card animate delay-3">
+                <div class="service-number">09</div>
+                <div class="service-icon"><i class="fas fa-feather-pointed"></i></div>
+                <h3>Authority Content Factory</h3>
+                <p>Content That Builds Trust and Drives Growth. We create strategic, engaging content that attracts your ideal audience and converts readers into customers.</p>
+                <ul class="service-deliverables">
+                    <li><i class="fas fa-check"></i> Website & Landing Page Content</li>
+                    <li><i class="fas fa-check"></i> SEO-Optimized Blog Writing</li>
+                    <li><i class="fas fa-check"></i> Social Media Content Strategy</li>
+                    <li><i class="fas fa-check"></i> Persuasive Marketing Copy</li>
+                    <li><i class="fas fa-check"></i> Email & Newsletter Content</li>
+                </ul>
+                <a href="contact.html" class="service-cta" onclick="openModal('Authority Content Factory')">Discuss Your Content Strategy <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="service-card animate delay-1">
+                <div class="service-number">10</div>
+                <div class="service-icon"><i class="fas fa-crosshairs"></i></div>
+                <h3>Lead Magnet Warfare</h3>
+                <p>Generate High-Quality Leads That Actually Convert. We design and execute proven lead generation systems that attract qualified prospects.</p>
+                <ul class="service-deliverables">
+                    <li><i class="fas fa-check"></i> High-Converting Landing Pages</li>
+                    <li><i class="fas fa-check"></i> Targeted Paid Lead Campaigns</li>
+                    <li><i class="fas fa-check"></i> Optimized Lead Capture Forms</li>
+                    <li><i class="fas fa-check"></i> CRM Integration & Automation</li>
+                    <li><i class="fas fa-check"></i> Lead Quality Tracking & Nurturing</li>
+                </ul>
+                <a href="contact.html" class="service-cta" onclick="openModal('Lead Magnet Warfare')">Launch Your Campaign <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="service-card animate delay-2">
+                <div class="service-number">11</div>
+                <div class="service-icon"><i class="fas fa-paper-plane"></i></div>
+                <h3>Relationship Revenue System</h3>
+                <p>Build Profitable Customer Relationships Through Email. We create personalized, automated campaigns that nurture leads and drive consistent sales.</p>
+                <ul class="service-deliverables">
+                    <li><i class="fas fa-check"></i> Strategic Campaign Design & Copy</li>
+                    <li><i class="fas fa-check"></i> Professional Newsletter Creation</li>
+                    <li><i class="fas fa-check"></i> Advanced Marketing Automation</li>
+                    <li><i class="fas fa-check"></i> Smart Customer Segmentation</li>
+                    <li><i class="fas fa-check"></i> Performance Tracking & A/B Testing</li>
+                </ul>
+                <a href="contact.html" class="service-cta" onclick="openModal('Relationship Revenue System')">Start Email Marketing <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="service-card animate delay-3">
+                <div class="service-number">12</div>
+                <div class="service-icon"><i class="fab fa-whatsapp"></i></div>
+                <h3>Instant Customer Connection Hub</h3>
+                <p>Connect with Customers Instantly Through WhatsApp. Reach your customers where they are most active with personalized marketing and support.</p>
+                <ul class="service-deliverables">
+                    <li><i class="fas fa-check"></i> Bulk & Broadcast Messaging</li>
+                    <li><i class="fas fa-check"></i> Targeted Promotional Campaigns</li>
+                    <li><i class="fas fa-check"></i> Automated Reply Systems & Chatbots</li>
+                    <li><i class="fas fa-check"></i> Efficient Customer Support Automation</li>
+                    <li><i class="fas fa-check"></i> Lead Follow-Up Sequences</li>
+                </ul>
+                <a href="contact.html" class="service-cta" onclick="openModal('Instant Customer Connection Hub')">Set Up WhatsApp Marketing <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-main">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <img src="assets/images/ARKAYUGA DIGITAL AGENCY - white.png" alt="Arkayuga Logo" class="footer-logo-img">
+                    </a>
+                    <p>We are a passionate team of digital strategists, designers, and marketers helping brands grow online.</p>
+                    <div class="follow-text">FOLLOW US AND STAY UPDATED!</div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-x-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>QUICK LINKS</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="why.html">Why Choose Us</a></li>
+                        <li><a href="process.html">Our Process</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>OUR SERVICES</h4>
+                    <ul>
+                        <li><a href="services.html">Eternal Brand Forge</a></li>
+                        <li><a href="services.html">Social Empire Management</a></li>
+                        <li><a href="services.html">Conversion Command Centers</a></li>
+                        <li><a href="services.html">Visual Impact Arsenal</a></li>
+                        <li><a href="services.html">Cinematic Brand Stories</a></li>
+                        <li><a href="services.html">Search Engine Domination</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>CONTACT INFO</h4>
+                    <ul class="contact-info-list">
+                        <li><i class="fas fa-map-marker-alt" style="color: var(--primary); margin-right: 0.5rem;"></i> Site No. 54, Door No. 29, Ashok Layout, Civil Aerodrome Post, Sitra, Coimbatore – 641014</li>
+                        <li><i class="fas fa-envelope" style="color: var(--primary); margin-right: 0.5rem;"></i> info@arkayuga.com</li>
+                        <li><i class="fas fa-phone" style="color: var(--primary); margin-right: 0.5rem;"></i> +91 99629 99817</li>
+                        <li><i class="fas fa-phone" style="color: var(--primary); margin-right: 0.5rem;"></i> +91 99629 99818</li>
+                        <li><i class="fas fa-phone" style="color: var(--primary); margin-right: 0.5rem;"></i> +91 99629 99819</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>2026 Arkayuga. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Sitemap</a>
+                <a href="#">Cookies</a>
+            </div>
+            <a href="#" class="back-to-top-btn" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;" title="Back to Top">
+                <i class="fas fa-arrow-up"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal">
+            <button class="modal-close" id="modalClose"><i class="fas fa-times"></i></button>
+            <h3 id="modalTitle">Service Inquiry</h3>
+            <p>Thank you for your interest! Our team will reach out to you shortly to discuss your requirements.</p>
+            <a href="contact.html" class="btn-primary" onclick="closeModal()" style="width:100%;justify-content:center;">
+                <i class="fas fa-paper-plane"></i> Contact Us Now
+            </a>
+        </div>
+    </div>
+
+    <!-- Toast -->
+    <div class="toast" id="toast">
+        <i class="fas fa-check-circle"></i>
+        <span id="toastMessage">Message sent successfully!</span>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
