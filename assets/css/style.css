@@ -2043,7 +2043,7 @@ body {
 
 /* Footer Main */
 .footer-main {
-    padding: 3rem 5%;
+    padding: 1.19rem 5%;
     max-width: 1400px;
     margin: 0 auto;
 }
@@ -2051,40 +2051,40 @@ body {
 .footer-grid {
     display: grid;
     grid-template-columns: 2fr 1fr 1.5fr 1.5fr;
-    gap: 3rem;
+    gap: 2rem;
 }
 
 .footer-brand .logo {
-    margin-bottom: 1rem;
+    margin-bottom: 0.6rem;
     display: inline-flex;
     font-size: 2.0625rem;
 }
 
 .footer-brand p {
     color: var(--text-gray);
-    font-size: 1.0125rem;
-    margin-bottom: 1.5rem;
+    font-size: 0.9125rem;
+    margin-bottom: 1rem;
     max-width: 300px;
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 .follow-text {
-    font-size: 0.8125rem;
+    font-size: 0.75rem;
     font-weight: 600;
     color: var(--text-white);
     text-transform: uppercase;
     letter-spacing: 1px;
-    margin-bottom: 1rem;
+    margin-bottom: 0.7rem;
 }
 
 .footer-brand .social-links {
     display: flex;
-    gap: 0.6rem;
+    gap: 0.5rem;
 }
 
 .footer-brand .social-links a {
-    width: 40px;
-    height: 40px;
+    width: 34px;
+    height: 34px;
     background: transparent;
     border: 1px solid var(--border);
     border-radius: 8px;
@@ -2094,7 +2094,7 @@ body {
     color: var(--text-gray);
     text-decoration: none;
     transition: all 0.3s ease;
-    font-size: 0.9625rem;
+    font-size: 0.875rem;
 }
 
 .footer-brand .social-links a:hover {
@@ -2105,12 +2105,12 @@ body {
 
 .footer-col h4 {
     font-family: 'Inter', sans-serif;
-    font-size: 0.875rem;
+    font-size: 0.8125rem;
     font-weight: 800;
     color: var(--text-white);
     text-transform: uppercase;
     letter-spacing: 1.5px;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .footer-col ul {
@@ -2118,13 +2118,13 @@ body {
 }
 
 .footer-col ul li {
-    margin-bottom: 0.9rem;
+    margin-bottom: 0.6rem;
 }
 
 .footer-col ul li a {
     color: var(--text-white);
     text-decoration: none;
-    font-size: 0.9625rem;
+    font-size: 0.875rem;
     font-weight: 500;
     transition: color 0.3s ease;
     display: inline-flex;
@@ -2153,8 +2153,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 0.9rem;
-    font-size: 0.9625rem;
+    margin-bottom: 0.6rem;
+    font-size: 0.875rem;
 }
 
 .hours-list li span:first-child {
@@ -2169,7 +2169,7 @@ body {
 /* Footer Bottom */
 .footer-bottom {
     border-top: 1px solid var(--border);
-    padding: 1.5rem 5%;
+    padding: 0.75rem 5%;
     max-width: 1400px;
     margin: 0 auto;
     display: flex;
@@ -2181,18 +2181,18 @@ body {
 
 .footer-bottom p {
     color: var(--text-dim);
-    font-size: 0.9125rem;
+    font-size: 0.8125rem;
 }
 
 .footer-links {
     display: flex;
-    gap: 1.5rem;
+    gap: 1.25rem;
 }
 
 .footer-links a {
     color: var(--text-dim);
     text-decoration: none;
-    font-size: 0.9125rem;
+    font-size: 0.8125rem;
     transition: color 0.3s ease;
 }
 
@@ -2273,9 +2273,9 @@ body {
 }
 
 .footer-logo-img {
-    height: 65px;
+    height: 48px;
     width: auto;
-    max-width: 204px;
+    max-width: 160px;
     object-fit: contain;
     margin-bottom: 0.5rem;
 }
@@ -2316,10 +2316,10 @@ body {
     display: flex;
     align-items: flex-start;
     gap: 0.5rem;
-    margin-bottom: 0.9rem;
-    font-size: 0.9625rem;
+    margin-bottom: 0.6rem;
+    font-size: 0.875rem;
     color: var(--text-white);
-    line-height: 1.5;
+    line-height: 1.4;
 }
 
 /* ============================================
@@ -2374,7 +2374,7 @@ body { max-width: 100%; }
     .footer-grid { grid-template-columns: 1fr; }
     .footer-bottom { flex-direction: column; text-align: center; }
     .contact-form-vortex .form-row { grid-template-columns: 1fr; }
-    .footer-main { padding: 3rem 6% 2rem; }
+    .footer-main { padding: 1.5rem 6% 1rem; }
 }
 
 @media (max-width: 480px) {
