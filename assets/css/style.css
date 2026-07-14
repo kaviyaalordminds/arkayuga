@@ -2351,3 +2351,34 @@ body {
         max-width: 164px;
     }
 }
+
+/* ============================================
+   MOBILE / RESPONSIVE FIXES
+   (kept last so these rules always win the cascade
+   over the unconditional desktop rules defined above)
+   ============================================ */
+
+html { max-width: 100%; overflow-x: hidden; }
+body { max-width: 100%; }
+
+@media (max-width: 1024px) {
+    .footer-grid { grid-template-columns: 1fr 1fr; }
+    .contact-grid { grid-template-columns: 1fr; }
+    .contact-left { text-align: center; }
+    .contact-desc { margin-left: auto; margin-right: auto; }
+    .contact-checks { justify-content: center; }
+    .contact-image { margin: 0 auto; }
+}
+
+@media (max-width: 768px) {
+    .footer-grid { grid-template-columns: 1fr; }
+    .footer-bottom { flex-direction: column; text-align: center; }
+    .contact-form-vortex .form-row { grid-template-columns: 1fr; }
+    .footer-main { padding: 3rem 6% 2rem; }
+}
+
+@media (max-width: 480px) {
+    .footer-grid { gap: 2rem; }
+    .contact-checks { gap: 1rem; }
+    .contact-checks span { font-size: 0.875rem; }
+}
