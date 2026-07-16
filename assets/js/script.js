@@ -157,11 +157,30 @@ function initContactForm() {
         e.preventDefault();
 
         const formData = new FormData(form);
-        const firstName = formData.get('firstName');
+        const submitBtn = form.querySelector('.send-btn');
+        const originalBtnHTML = submitBtn.innerHTML;
 
-        // Simulate form submission
-        showToast('Thank you ' + firstName + '! We will contact you soon.');
-        form.reset();
+        submitBtn.disabled = true;
+        submitBtn.innerHTML = 'Sending...';
+
+        fetch('send_mail.php', {
+            method: 'POST',
+            body: formData
+        })
+        .then(res => res.json())
+        .then(data => {
+            showToast(data.message);
+            if (data.success) {
+                form.reset();
+            }
+        })
+        .catch(() => {
+            showToast('Something went wrong. Please try again.');
+        })
+        .finally(() => {
+            submitBtn.disabled = false;
+            submitBtn.innerHTML = originalBtnHTML;
+        });
     });
 }
 
